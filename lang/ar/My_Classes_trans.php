@@ -13,7 +13,9 @@ return [
   'submit' => 'حفظ البيانات',
   'Name_class'=>'اسم الصف بالعربية',
   'Name_class_en'=>'اسم الصف بالانجلزية',
+  'Name_class_ru'=>"سم الصف بالروسيه",
   'Name_Grade'=>'اسم المرحلة',
+
   'add_row'=>'ادراج سجل',
   'delete_row'=>'حذف',
   'Processes'=>'العمليات',
