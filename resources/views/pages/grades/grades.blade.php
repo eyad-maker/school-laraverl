@@ -26,20 +26,22 @@
 @section('content')
 <!-- row -->
 <div class="row">
-     <!-- Error message -->
-     @if ($errors->any())
-    <div class="alert alert-danger">
-        <ul>
-            @foreach ($errors->all() as $error)
-                <li>{{ $error }}</li>
-            @endforeach
-        </ul>
-    </div>
-    @endif
+    
+    
 
       <div class="col-xl-12 mb-30">     
         <div class="card card-statistics h-100"> 
           <div class="card-body">
+           <!-- Error message -->  
+          @if ($errors->any())
+            <div class="alert alert-danger">
+                <ul>
+                    @foreach ($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                    @endforeach
+                </ul>
+            </div>
+            @endif  
           <button type="button" class="button x-small" data-toggle="modal" data-target="#exampleModal">
                         {{ trans('Grade_trans.add_Grade') }}
                     </button>

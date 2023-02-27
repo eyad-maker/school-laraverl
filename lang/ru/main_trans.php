@@ -12,6 +12,7 @@ return [
     'stage_name_ar' => 'stage_name_ar',
     'stage_name_en' => 'stage_name_en',
     'stage_name_ru' => 'stage_name_ru',
+    'List_classes'=>"List classes"
 
 
 

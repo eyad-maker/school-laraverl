@@ -23,6 +23,7 @@ return [
 
 
      'Copyright' => 'Copyright',
-     'Name_Programer' => 'EyadWael MoraSoft All Rights Reserved'
+     'Name_Programer' => 'EyadWael MoraSoft All Rights Reserved',
+     'List_classes'=>"List classes"
 
 ];

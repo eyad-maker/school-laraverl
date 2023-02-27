@@ -38,6 +38,13 @@ Route::group(
                        
                           // ==============================route for authenitcation===========================
                         Route::get('/dashboard', [App\Http\Controllers\HomeController::class, 'index'])->name('dashboard');
+                        // =======================route for Classrooms========================
+                        Route::group(['namespace'=>"Classroom" ], function()
+                        { 
+                            Route::resource('Classrooms', 'ClassroomController');
+            
+                        });
+
 
 
     });

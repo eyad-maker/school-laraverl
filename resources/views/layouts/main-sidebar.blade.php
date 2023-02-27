@@ -35,19 +35,20 @@
                             
                         </ul>
                     </li>
-                    <!-- menu item calendar-->
-                    <li>
-                        <a href="javascript:void(0);" data-toggle="collapse" data-target="#calendar-menu">
-                            <div class="pull-left"><i class="ti-calendar"></i><span
-                                    class="right-nav-text">calendar</span></div>
+                  
+                     <!-- classes-->
+                     <li>
+                        <a href="javascript:void(0);" data-toggle="collapse" data-target="#classes-menu">
+                            <div class="pull-left"><i class="fa fa-building"></i><span
+                                    class="right-nav-text">{{trans('main_trans.classes')}}</span></div>
                             <div class="pull-right"><i class="ti-plus"></i></div>
                             <div class="clearfix"></div>
                         </a>
-                        <ul id="calendar-menu" class="collapse" data-parent="#sidebarnav">
-                            <li> <a href="calendar.html">Events Calendar </a> </li>
-                            <li> <a href="calendar-list.html">List Calendar</a> </li>
+                        <ul id="classes-menu" class="collapse" data-parent="#sidebarnav">
+                            <li><a href="{{route('Classrooms.index')}}">{{trans('main_trans.List_classes')}}</a></li>
                         </ul>
                     </li>
+
                     <!-- menu item todo-->
                     <li>
                         <a href="todo-list.html"><i class="ti-menu-alt"></i><span class="right-nav-text">Todo
