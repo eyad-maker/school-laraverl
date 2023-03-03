@@ -20,6 +20,8 @@ return [
     'Onlineclasses'=>'Online classes',
     'Settings'=>'Settings',
     'Users'=>'Users',
+    'List_sections'=>'Sections',
+    
 
 
      'Copyright' => 'Copyright',

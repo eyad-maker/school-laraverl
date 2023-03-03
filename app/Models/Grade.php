@@ -16,5 +16,13 @@ class Grade extends Model
 
     protected $table = 'Grades';
     public $timestamps = true;
+    
+    // relationship Between Grades and Sections
+    public function Sections()
+    {
+
+        return $this->hasMany('App\Models\Section', 'Grade_id');
+
+    }
 
 }

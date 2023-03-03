@@ -12,7 +12,7 @@ return [
     'Name_class'=>'Name class en',
     'Name_class_en'=>'Name class en',
     'Name_class_ru'=>'Name class ru',
-    
+    'Search_By_Grade'=> 'Search By Grade Name',
     'Name_Grade'=>'Name Grade',
     'add_row'=>'add row',
     'delete_row'=>'Delete row',
@@ -20,6 +20,7 @@ return [
     'Edit'=>'Edit',
     'Delete'=>'Delete',
     'Close' => 'Close',
+    'delete_checkbox'=> 'Delete Selected',
 
 
 

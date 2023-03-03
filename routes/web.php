@@ -42,9 +42,17 @@ Route::group(
                         Route::group(['namespace'=>"Classroom" ], function()
                         { 
                             Route::resource('Classrooms', 'ClassroomController');
+                            Route::post('delete_all', 'ClassroomController@delete_all')->name('delete_all');
+                            Route::post('Filter_Classes', 'ClassroomController@Filter_Classes')->name('Filter_Classes');
             
                         });
+                          // =======================route for Sections========================
+                        Route::group(['namespace'=>"Sections" ], function(){
+                            Route::resource('section', 'SectionController');
+                            Route::get('/classes/{id}', 'SectionController@getclasses');
 
+                        });
+                       
 
 
     });

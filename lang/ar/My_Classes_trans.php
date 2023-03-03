@@ -15,6 +15,8 @@ return [
   'Name_class_en'=>'اسم الصف بالانجلزية',
   'Name_class_ru'=>"سم الصف بالروسيه",
   'Name_Grade'=>'اسم المرحلة',
+  'Search_By_Grade'=> 'بحث باسم المرحلة',
+  'delete_checkbox'=> 'حذف الصفوف المختارة',
 
   'add_row'=>'ادراج سجل',
   'delete_row'=>'حذف',
