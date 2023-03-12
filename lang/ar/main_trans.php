@@ -8,11 +8,15 @@ return [
     'change_language'=>'تغير اللغة',
     'Grades'=>'المراحل الدراسية',
     'Grades_list'=>'قائمة المراحل الدراسية',
-    'classes'=>'الفصول',
+    'classes'=>'الصفوف',
+    'List_classes'=>'قائمة الصفوف الدراسية',
     'sections'=>'الاقسام',
+    'List_sections'=>'قائمة الاقسام الدراسية',
     'students'=>'الطلاب',
     'Teachers'=>'المعلمين',
     'Parents'=>'اولياء الامور',
+    'List_Parents'=>'قائمة اولياء الامور',
+    'Add_Parent'=>'اضافة ولي امر',
     'Accounts'=>'الحسابات',
     'Attendance'=>'الحضور والغياب',
     'Exams'=>'الامتحانات',
@@ -21,9 +25,8 @@ return [
     'Settings'=>'الاعدادات',
     'Users'=>'المستخدمين',
     'Copyright' => 'جميع الحقوق محفوظة ',
-    'Name_Programer' => 'سمير جمال مورا سوفت',
-    'List_classes'=>"قائمة الفصول الدراسيه",
-    'sections'=>'الاقسام',
+    'Name_Programer' => 'سمير جمال مورا سوفت'
+
 
 
 ];
