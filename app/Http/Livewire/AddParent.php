@@ -6,12 +6,15 @@ use Illuminate\Support\Facades\Hash;
 use App\Models\Nationalite;
 use App\Models\Religion;
 use App\Models\Blood;
+use App\Models\ParentAttachment;
+use Livewire\WithFileUploads;
 
 use Livewire\Component;
 
 class AddParent extends Component
-{   public $successMessage = '';
-    public $catchError;
+{   use WithFileUploads;
+    public $successMessage = '';
+    public $catchError,$updateMode = false,$photos;
     public $currentStep = 1,
     
 
@@ -158,6 +161,15 @@ class AddParent extends Component
             $My_Parent->Address_Mother = $this->Address_Mother;
 
             $My_Parent->save();
+            if (!empty($this->photos)){
+                foreach ($this->photos as $photo) {
+                    $photo->storeAs($this->National_ID_Father, $photo->getClientOriginalName(), $disk = 'parent_attachments');
+                    ParentAttachment::create([
+                        'file_name' => $photo->getClientOriginalName(),
+                        'parent_id' => My_Parent::latest()->first()->id,
+                    ]);
+                }
+            }
             $this->successMessage = trans('messages.success');
             $this->clearForm();
             $this->currentStep= 1;
