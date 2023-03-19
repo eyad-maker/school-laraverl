@@ -29,6 +29,10 @@ return [
     'Address_Mother' =>" Phone Mother",
     "Back"=>"Back",
     "Finish"=>"Finish",
+    'Attachments' => 'Attachments',
+    'Processes' => 'Processes',
+    'add_parent' => 'add parent',
+
     
 
     'Next' => 'Next',

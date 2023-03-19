@@ -18,6 +18,8 @@ class DatabaseSeeder extends Seeder
         $this->call(BloodSeeder::class);
         $this->call(NationallitesSeeder::class);
         $this->call(religionSeeder::class);
+        $this->call(GenderTableSeeder::class);
+        $this->call(SpecializationsTableSeeder::class);
         // \App\Models\User::factory(10)->create();
 
         // \App\Models\User::factory()->create([

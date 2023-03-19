@@ -11,6 +11,9 @@
             {{ $successMessage }}
         </div>
     @endif
+    @if($show_table)
+            @include('livewire.Parent_Table')
+    @else        
     <div class="stepwizard">
         <div class="stepwizard-row setup-panel">
             <div class="stepwizard-step">
@@ -63,4 +66,5 @@
                         </div>
                     </div>
                 </div>
+                @endif
 </div>

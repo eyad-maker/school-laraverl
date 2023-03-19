@@ -60,10 +60,32 @@
                             <li><a href="{{route('section.index')}}">{{trans('main_trans.List_sections')}}</a></li>
                         </ul>
                     </li>
-                    <!-- menu item chat-->
+                    
+                    <!-- students-->
                     <li>
-                        <a href="chat-page.html"><i class="ti-comments"></i><span class="right-nav-text">Chat
-                            </span></a>
+                        <a href="javascript:void(0);" data-toggle="collapse" data-target="#students-menu">
+                            <div class="pull-left"><i class="fas fa-user-graduate"></i></i></i><span
+                                    class="right-nav-text">{{trans('main_trans.students')}}</span></div>
+                            <div class="pull-right"><i class="ti-plus"></i></div>
+                            <div class="clearfix"></div>
+                        </a>
+                        <ul id="students-menu" class="collapse" data-parent="#sidebarnav">
+                            <li> <a href="{{route('Students.create')}}">{{trans('main_trans.add_student')}}</a> </li>
+                            <li> <a href="{{route('Students.index')}}">{{trans('main_trans.list_students')}}</a> </li>
+                            
+                        </ul>
+                    </li>
+                    <!-- Teachers -->
+                    <li>
+                        <a href="javascript:void(0);" data-toggle="collapse" data-target="#Teachers-menu">
+                            <div class="pull-left"><i class="fas fa-chalkboard-teacher"></i></i><span
+                                    class="right-nav-text">{{trans('main_trans.Teachers')}}</span></div>
+                            <div class="pull-right"><i class="ti-plus"></i></div>
+                            <div class="clearfix"></div>
+                        </a>
+                        <ul id="Teachers-menu" class="collapse" data-parent="#sidebarnav">
+                            <li> <a href="{{route('Teachers.index')}}">{{trans('main_trans.List_Teachers')}}</a> </li>
+                        </ul>
                     </li>
                     <!-- menu item mailbox-->
                     <li>
@@ -71,8 +93,8 @@
                                 box</span> <span class="badge badge-pill badge-warning float-right mt-1">HOT</span> </a>
                     </li>
                    
-                    <!-- Parents-->
-                       <li>
+                     <!-- Parents-->
+                     <li>
                         <a href="javascript:void(0);" data-toggle="collapse" data-target="#Parents-menu">
                             <div class="pull-left"><i class="fas fa-user-tie"></i><span
                                     class="right-nav-text">{{trans('main_trans.Parents')}}</span></div>
@@ -80,11 +102,9 @@
                             <div class="clearfix"></div>
                         </a>
                         <ul id="Parents-menu" class="collapse" data-parent="#sidebarnav">
-                            <li> <a href="">{{trans('main_trans.List_Parents')}}</a> </li>
-                            <li> <a href="{{url('add_parent')}}">{{trans('main_trans.Add_Parent')}}</a> </li>
+                            <li> <a href="{{url('add_parent')}}">{{trans('main_trans.List_Parents')}}</a> </li>
                         </ul>
                     </li>
-
                     <!-- menu font icon-->
                     <li>
                         <a href="javascript:void(0);" data-toggle="collapse" data-target="#font-icon">

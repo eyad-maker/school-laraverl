@@ -13,6 +13,9 @@
 
 <link href="{{ URL::asset('assets/css/wizard.css') }}" rel="stylesheet">
 
+
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
 <!--- Style css -->
 @if (App::getLocale() == 'ar')
     <link href="{{ URL::asset('assets/css/rtl.css') }}" rel="stylesheet">

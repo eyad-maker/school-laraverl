@@ -34,6 +34,9 @@ return [
     'Back' => 'السابق',
     'Finish' => 'تاكيد',
     'Choose' => 'اختيار من القائمة',
+    'Attachments' => 'المرفقات',
+    'Processes' => 'العمليات',
+    'add_parent' => 'اضافة ولي امر',
 
 
 

@@ -13,7 +13,9 @@ return [
     'sections'=>'الاقسام',
     'List_sections'=>'قائمة الاقسام الدراسية',
     'students'=>'الطلاب',
+    'list_students'=>'قائمة الطلاب',
     'Teachers'=>'المعلمين',
+    'List_Teachers' => 'قائمة المعلمين',
     'Parents'=>'اولياء الامور',
     'List_Parents'=>'قائمة اولياء الامور',
     'Add_Parent'=>'اضافة ولي امر',
@@ -25,8 +27,9 @@ return [
     'Settings'=>'الاعدادات',
     'Users'=>'المستخدمين',
     'Copyright' => 'جميع الحقوق محفوظة ',
+    'students'=>'الطلاب',
+    'add_student'=>'اضافة طالب جديد',
     'Name_Programer' => 'سمير جمال مورا سوفت'
-
 
 
 ];
