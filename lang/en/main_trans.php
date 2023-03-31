@@ -37,5 +37,7 @@ return [
     'Students_upgrade'=>'Students Upgrade',
     'Graduate_students'=>'Graduate Students',
     'list_students'=>'list Students',
+    'Students_Promotions'=>'Students Promotions',
+    'Students_Management'=>'Management Promotions',
 
 ];

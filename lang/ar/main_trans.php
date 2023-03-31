@@ -29,6 +29,9 @@ return [
     'Copyright' => 'جميع الحقوق محفوظة ',
     'students'=>'الطلاب',
     'add_student'=>'اضافة طالب جديد',
+    'Students_Promotions'=>'ترقية الطلاب',
+    'Students_Management'=>'ادارة ترقية الطلاب',
+    
     'Name_Programer' => 'سمير جمال مورا سوفت'
 
 

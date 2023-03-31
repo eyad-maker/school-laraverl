@@ -31,5 +31,18 @@ return [
     'created_at' => 'created_at',
     'Download' => 'Download',
     'delete' => 'Delete',
+    'prev_grade' => 'previous Grade',
+    'prev_class' => 'previous Class',
+    'prev_section' =>'previous Section',
+    'year' => 'Academic year',
+    'curr_grade' =>'Curr Grade',
+    'curr_year'=>'Curr Year',
+    'curr_class' =>'Curr Class',
+    'curr_section' =>'Curr_Section',
+    'ignore_changes' =>'Ignore changes',
+    'sure' =>'Are you sure from ignorinh changes',
+    'undo' =>'undo',
+   
+   
 
 ];
